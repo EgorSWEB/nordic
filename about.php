@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Быстрый старт. Размещение интерактивной карты на странице</title>
+        <title>О нас</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 
@@ -14,7 +14,7 @@
             function init() {
                 var myMap = new ymaps.Map("map", {
                         center: [55.77, 37.65],
-                        zoom: 3 
+                        zoom: 5 
                     });
 
                 
@@ -56,6 +56,7 @@
     <body>
         <div id="map" style="width: 600px; height: 400px"></div>
         Данные которые были введены во второй версии файла
+        Строка созданная в третьей версии
     </body>
 
 </html>
